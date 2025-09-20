@@ -1,4 +1,5 @@
 import { network } from "hardhat";
+import { createRoot } from 'react-dom/client';
 
 const { viem } = await network.connect({
   network: "hardhatOp",
